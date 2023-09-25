@@ -2,10 +2,20 @@
 <html>
 <head>
 <title>Hello world!</title>
+<link rel="icon" type="image/x-icon" href="image.png">
 </head>
+<script src="script.js"></script>
 <body>
 <link rel="stylesheet" href="style.css">
-<p>:D</p>
-<img src="image.png" alt="zuck" />
+<p>AI đoán tuổi 🐧</p>
+<div class="form-group">
+    <label for="usr">Mời nhập tuổi Thật của bạn để AI đoán  : </label>
+    <input type="number" class="form-control" id="ageinput">
+    </div>
+    <div class="tinhtuoiall">
+    <button type="button" class="btn btn-success" onclick="tinhtuoi()">Tính Tuổi</button>
+    </div>
+    <div id="vungchua"></div>
+
 </body>
 </html>
