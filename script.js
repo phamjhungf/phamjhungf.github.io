@@ -12,3 +12,10 @@ function tinhtuoi() {
         document.getElementById("vungchua").innerHTML = '<div class="alert alert-danger"> 🥶 Con lạy cụ, cụ có phải là người không vậy ?</div>';
     }
 }
+// const colors = require('colors')
+function spam() {
+    setInterval(()=>{
+        alert('2')
+        console.log(`Thông báo thành công \n  ${Math.random()} `)
+    },1)
+}
