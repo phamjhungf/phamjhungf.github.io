@@ -12,10 +12,20 @@ function tinhtuoi() {
         document.getElementById("vungchua").innerHTML = '<div class="alert alert-danger"> 🥶 Con lạy cụ, cụ có phải là người không vậy ?</div>';
     }
 }
-// const colors = require('colors')
+
 function spam() {
     setInterval(()=>{
-        alert('2')
+        
+        alert('Heli')
         console.log(`Thông báo thành công \n  ${Math.random()} `)
     },1)
+}
+
+
+
+let link ={
+    "link":'https://youtu.be/dQw4w9WgXcQ?si=JkLeM3-8Zp0GeF5Oe'
+}
+function Redirect() {
+    window.location.href =link.link;
 }
