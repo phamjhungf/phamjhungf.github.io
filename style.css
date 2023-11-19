@@ -1,11 +1,21 @@
 body {
-    color: #eee;
-    background: #121212;
+background-image:url(./wallpaper.png);
+
   }
   p {
-    color:rgb(255, 51, 0);
-    font-size: x-large;
-      margin:auto;  width: 50%;  padding: 60px;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #ff4000 0%, #ff9d2e 25%, #8700b8 50%, #962eff 75%, #ff4000 100%);
+    background-size: 400%;  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: animate 10s linear infinite;
   }
 
- 
+@keyframes animate {
+  to{
+    background-position: 400%;
+  }
+} 

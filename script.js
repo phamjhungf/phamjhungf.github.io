@@ -1,4 +1,5 @@
 alert('ko có  j ở đây 😭 ')
+
 function tinhtuoi() {
     var tuoinhap = document.getElementById("ageinput").value;
 
@@ -21,7 +22,7 @@ function spam() {
     },1)
 }
 
-
+console.log('Hello'.bgGreen)
 
 let link ={
     "link":'https://youtu.be/dQw4w9WgXcQ?si=JkLeM3-8Zp0GeF5Oe'
@@ -29,3 +30,5 @@ let link ={
 function Redirect() {
     window.location.href =link.link;
 }
+
+
