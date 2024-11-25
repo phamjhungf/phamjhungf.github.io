@@ -1,4 +1,4 @@
-alert('ko có  j ở đây 😭 ')
+//alert('ko có  j ở đây 😭 ')
 
 function tinhtuoi() {
     var tuoinhap = document.getElementById("ageinput").value;
