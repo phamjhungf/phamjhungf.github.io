@@ -16,9 +16,10 @@ function tinhtuoi() {
 
 function spam() {
     setInterval(()=>{
+        int i=0
         
         alert('Heli')
-        console.log(`Thông báo thành công \n  ${Math.random()} `)
+        console.log(`Thông báo thành công \n  ${i++} `)
     },1)
 }
 
