@@ -15,13 +15,13 @@ function tinhtuoi() {
 }
 
 function spam() {
-    setInterval(()=>{
-        int i=0
-        
-        alert('Heli')
-        console.log(`Thông báo thành công \n  ${i++} `)
-    },1)
+    let i = 0;
+    setInterval(() => {
+        alert('Heli');
+        console.log(`Thông báo thành công \n  ${i++}`);
+    }, 100);
 }
+
 
 //console.log('Hello'.bgGreen)
 
