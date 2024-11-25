@@ -23,7 +23,7 @@ function spam() {
     },1)
 }
 
-console.log('Hello'.bgGreen)
+//console.log('Hello'.bgGreen)
 
 let link ={
     "link":'https://youtu.be/dQw4w9WgXcQ?si=JkLeM3-8Zp0GeF5Oe'
